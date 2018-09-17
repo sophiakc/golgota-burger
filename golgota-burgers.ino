@@ -1,3 +1,32 @@
+// Files content
+// TRACK000.mp3 // fish-sound
+// TRACK001.mp3 // eggs-sound
+// TRACK002.mp3 // chicken-sound
+// TRACK003.mp3 // cow/dairy-sound
+// TRACK004.mp3 // bacon-sound
+// TRACK005.mp3 // baby-crying-sound
+// TRACK006.mp3 // baby-crying-sound
+// TRACK007.mp3 // bacon-sound
+// TRACK008.mp3 // cow/dairy-sound
+// TRACK009.mp3 // chicken-sound
+// TRACK010.mp3 // eggs-sound
+// TRACK011.mp3 // fish-sound
+
+// TRACK012.mp3 // pair success1
+// TRACK013.mp3 // pair success2
+// TRACK014.mp3 // pair failure1
+// TRACK015.mp3 // pair failure2
+// TRACK017.mp3 // This is a pair, congrats! ***** ne marche pas
+
+// TRACK020.mp3 // fish-story
+// TRACK021.mp3 // eggs-story
+// TRACK022.mp3 // chicken-story
+// TRACK023.mp3 // cow/dairy-story
+// TRACK024.mp3 // bacon-story
+// TRACK025.mp3 // worldhunber-story
+
+
+
 
 // compiler error handling
 #include "Compiler_Errors.h"
