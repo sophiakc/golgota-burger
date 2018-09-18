@@ -114,7 +114,7 @@ void setup() {
   MPR121.setReleaseThreshold(2);   // allows to correct the sensitivity of the touch when released — en standard en 20, changé à 4
 
   result = MP3player.begin();
-  MP3player.setVolume(60, 60);      // instead of initial 10
+  MP3player.setVolume(0, 0);      // instead of initial 10 > 0 > 60
 
   if (result != 0) {
     Serial.print("Error code: ");
