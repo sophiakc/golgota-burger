@@ -23,7 +23,14 @@
 // TRACK022.mp3 // chicken-story
 // TRACK023.mp3 // cow/dairy-story
 // TRACK024.mp3 // bacon-story
-// TRACK025.mp3 // worldhunber-story
+// TRACK025.mp3 // worldhunger-story
+
+// TRACK030.mp3 // fish_buzz-failure
+// TRACK031.mp3 // eggs_buzz-failure
+// TRACK032.mp3 // chicken_buzz-failure
+// TRACK033.mp3 // cow/dairy_buzz-failure
+// TRACK034.mp3 // bacon_buzz-failure
+// TRACK035.mp3 // worldhunger_buzz-failure
 
 
 
@@ -166,7 +173,6 @@ void loop() {
         Serial.println(burgerpairIndex);*/
 
       if (burgerpairIndex == 0) {
-        // delay(300);
         burgerpairIndex = -1;
         MP3player.stopTrack();
         MP3player.playTrack(20);
@@ -177,25 +183,21 @@ void loop() {
         MP3player.playTrack(21);
         Serial.println("Burgerpair1 is matched, explanation is playing after 2nd burger pressed?");    // print the successful message
       } else if (burgerpairIndex == 2) {
-        // delay(300);
         burgerpairIndex = -1;
         MP3player.stopTrack();
         MP3player.playTrack(22);
         Serial.println("Burgerpair2 is matched, explanation is playing after 2nd burger pressed?");    // print the successful message
       } else if (burgerpairIndex == 3) {
-        // delay(300);
         burgerpairIndex = -1;
         MP3player.stopTrack();
         MP3player.playTrack(23);
         Serial.println("Burgerpair3 is matched, explanation is playing after 2nd burger pressed?");    // print the successful message
       } else if (burgerpairIndex == 4) {
-        // delay(300);
         burgerpairIndex = -1;
         MP3player.stopTrack();
         MP3player.playTrack(24);
         Serial.println("Burgerpair4 is matched, explanation is playing after 2nd burger pressed?");    // print the successful message
       } else if (burgerpairIndex == 5) {
-        // delay(300);
         burgerpairIndex = -1;
         MP3player.stopTrack();
         MP3player.playTrack(25);
