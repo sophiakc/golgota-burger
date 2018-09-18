@@ -241,11 +241,59 @@ void loop() {
         totalpairs = 0;                             // reset variable to start the game again
       }
 
-    } else {
+    } else if (input_value == 0) {
+      MP3player.stopTrack();
+      MP3player.playTrack(30);
+      selection = -1;
+    } else if (input_value == 1) {
+      MP3player.stopTrack();
+      MP3player.playTrack(31);
+      selection = -1;
+    } else if (input_value == 2) {
+      MP3player.stopTrack();
+      MP3player.playTrack(32);
+      selection = -1;
+    } else if (input_value == 3) {
+      MP3player.stopTrack();
+      MP3player.playTrack(33);
+      selection = -1;
+    } else if (input_value == 4) {
+      MP3player.stopTrack();
+      MP3player.playTrack(34);
+      selection = -1;
+    } else if (input_value == 5) {
+      MP3player.stopTrack();
+      MP3player.playTrack(35);
+      selection = -1;
+    } else if (input_value == 6) {
+      MP3player.stopTrack();
+      MP3player.playTrack(35);
+      selection = -1;
+    } else if (input_value == 7) {
+      MP3player.stopTrack();
+      MP3player.playTrack(34);
+      selection = -1;
+    } else if (input_value == 8) {
+      MP3player.stopTrack();
+      MP3player.playTrack(33);
+      selection = -1;
+    } else if (input_value == 9) {
+      MP3player.stopTrack();
+      MP3player.playTrack(32);
+      selection = -1;
+    } else if (input_value == 10) {
+      MP3player.stopTrack();
+      MP3player.playTrack(31);
+      selection = -1;
+    } else if (input_value == 11) {
+      MP3player.stopTrack();
+      MP3player.playTrack(30);
+      selection = -1;
+
       Serial.println("This is not a pair, booh!");
       Serial.println("You loose 1 point");
       //score = score - 1;                        // subscract 1 point to the score
-      selection = -1;                           // reset the selection, so we can start again with a new pair
+      //selection = -1;                           // reset the selection, so we can start again with a new pair
     }
 
     Serial.print("Your score is now: ");
@@ -253,6 +301,30 @@ void loop() {
     Serial.println("====================");
 
   }
+
+
+
+
+  // TRACK000.mp3 // fish-sound
+// TRACK001.mp3 // eggs-sound
+// TRACK002.mp3 // chicken-sound
+// TRACK003.mp3 // cow/dairy-sound
+// TRACK004.mp3 // bacon-sound
+// TRACK005.mp3 // baby-crying-sound
+// TRACK006.mp3 // baby-crying-sound
+// TRACK007.mp3 // bacon-sound
+// TRACK008.mp3 // cow/dairy-sound
+// TRACK009.mp3 // chicken-sound
+// TRACK010.mp3 // eggs-sound
+// TRACK011.mp3 // fish-sound
+
+// TRACK030.mp3 // fish_buzz-failure
+// TRACK031.mp3 // eggs_buzz-failure
+// TRACK032.mp3 // chicken_buzz-failure
+// TRACK033.mp3 // cow/dairy_buzz-failure
+// TRACK034.mp3 // bacon_buzz-failure
+// TRACK035.mp3 // worldhunger_buzz-failure
+
 
 
 
